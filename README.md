@@ -15,7 +15,8 @@ My friends come to me and ask me to create a tournament tracker. They are always
 ## Questions
 ### How many players will the tournament handle? Is it variable?
 The application should be able to handle a variable number of players in a tournament.
-###
+### If a tournament has less than the full complement of players, how do we handle it?
+A tournament with less than the perfect number (a multiple of 2, so 4, 8, 16, 32, etc.) should add in "byes". Basically, certain people selected at random get to skip the first round and act as if they won.
 
 ## Useful for:
 - Office ping pongtournaments
