@@ -61,3 +61,10 @@ The data should be stored in a Microsoft SQL database by default but have an opt
 
 ## Will this system handle entry fees, prizes or other payouts?
 Yes. The tournament should have the option of charging an entry fee. Prizes should also be an option, where the tournament administrator chooses how much money to award a variable number of places. The total cash amount should not exceed the income from the tournament. A percentage-based system would also be nice to specify.
+
+## What type of reporting is needed?
+A simple report specifying the outcome of the games per round as well as a report that specifies who won and how much they won. These can be just displayed on a fomr or they can be emailed to tournament competitors and the administrator.
+
+## Who can fill in the results of a game?
+Anyone using the application should be able to fill in the game scores.
+
