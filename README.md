@@ -34,7 +34,7 @@ My friends come to me and ask me to create a tournament tracker. They are always
 5. A single loss eliminates a player.
 6. The last player standing is the winner.
 
-# Questions:
+# Predevelopment Q&A:
 ## How many players will the tournament handle? Is it variable?
 The application should be able to handle a variable number of players in a tournament.
 
