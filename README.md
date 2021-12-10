@@ -1,23 +1,6 @@
 # C_Sharp-Tournament-Tracker
 A Tournament Tracker written in C# that sets up a schedule for teams to play each other in a single-elimination style matcchups.
 
-## Scenario
-My friends come to me and ask me to create a tournament tracker. They are always playing games and want to determine who is the best. The idea is that I create a bracket tournament system where the computer will tell them who to play in a single-elimination style bracket. In the end, the winner should be identified. Their model is the NCAA Basketball tournament bracket from March Madness.
-
-## Features
-1. Tracks games played and their outcome (who won).
-2. Multiple competitors play in the tournament.
-3. Creates a tournament plan (who plays in what order).
-4. Schedules games.
-5. A single loss eliminates a player.
-6. The last player standing is the winner.
-
-## Questions
-### How many players will the tournament handle? Is it variable?
-The application should be able to handle a variable number of players in a tournament.
-### If a tournament has less than the full complement of players, how do we handle it?
-A tournament with less than the perfect number (a multiple of 2, so 4, 8, 16, 32, etc.) should add in "byes". Basically, certain people selected at random get to skip the first round and act as if they won.
-
 ## Useful for:
 - Office ping pongtournaments
 - Rec league playoffs
@@ -39,3 +22,24 @@ A tournament with less than the perfect number (a multiple of 2, so 4, 8, 16, 32
 - Emailing from C#
 - Custom Events
 - Advanced Debugging
+
+## Scenario
+My friends come to me and ask me to create a tournament tracker. They are always playing games and want to determine who is the best. The idea is that I create a bracket tournament system where the computer will tell them who to play in a single-elimination style bracket. In the end, the winner should be identified. Their model is the NCAA Basketball tournament bracket from March Madness.
+
+## Features
+1. Tracks games played and their outcome (who won).
+2. Multiple competitors play in the tournament.
+3. Creates a tournament plan (who plays in what order).
+4. Schedules games.
+5. A single loss eliminates a player.
+6. The last player standing is the winner.
+
+## Questions
+### How many players will the tournament handle? Is it variable?
+The application should be able to handle a variable number of players in a tournament.
+### If a tournament has less than the full complement of players, how do we handle it?
+A tournament with less than the perfect number (a multiple of 2, so 4, 8, 16, 32, etc.) should add in "byes". Basically, certain people selected at random get to skip the first round and act as if they won.
+### Should the ordering of who plays each other be random or ordered by input order?
+The ordering of the tournament should be random.
+### Should we schedule the Games or are they just played whenever?
+The games should be played in whatever order and whenever the players want to play them.
