@@ -68,3 +68,9 @@ A simple report specifying the outcome of the games per round as well as a repor
 ## Who can fill in the results of a game?
 Anyone using the application should be able to fill in the game scores.
 
+## Are there varying levels of access?
+No. They only method of varied access is if the competitors are not allowed into the application and instead, they do everything via email.
+
+## Should this system contact users about upcoming games?
+Yes, the system should email users that they are due to play in a round as well as who they are scheduled to play.
+
