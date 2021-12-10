@@ -34,29 +34,30 @@ My friends come to me and ask me to create a tournament tracker. They are always
 5. A single loss eliminates a player.
 6. The last player standing is the winner.
 
-## Questions
-### How many players will the tournament handle? Is it variable?
+# Questions:
+## How many players will the tournament handle? Is it variable?
 The application should be able to handle a variable number of players in a tournament.
 
-### If a tournament has less than the full complement of players, how does the system handle it?
+## If a tournament has less than the full complement of players, how does the system handle it?
 A tournament with less than the perfect number (a multiple of 2, so 4, 8, 16, 32, etc.) should add in "byes". Basically, certain people selected at random get to skip the first round and act as if they won.
 
-### Should the ordering of who plays each other be random or ordered by input order?
+## Should the ordering of who plays each other be random or ordered by input order?
 The ordering of the tournament should be random.
 
-### Should the system schedule the Games or are they just played whenever?
+## Should the system schedule the Games or are they just played whenever?
 The games should be played in whatever order and whenever the players want to play them.
 
-### If the games are played whenever, can a game from the second round be played before the first round is complete?
+## If the games are played whenever, can a game from the second round be played before the first round is complete?
 No. Each round should be fully completed before the next round is displayed.
 
-### Does the system need to store a score of some kind or just who won?
+## Does the system need to store a score of some kind or just who won?
 The system should store a score. Just a number for each player. That way the tracker can be flexible enough to handle a checkers tournament (the winner would have a 1 and the loser a 0) or a basketball tournament.
 
-### What type of front-end should this system have (form, webpage, app, etc.)?
+## What type of front-end should this system have (form, webpage, app, etc.)?
 The system should be a desktop system for now, but down the road I may want to turn it into an app or a website.
 
-### Where will the data be stored?
+## Where will the data be stored?
 The data should be stored in a Microsoft SQL database by default but have an option to store to a text file instead.
 
-
+## Will this system handle entry fees, prizes or other payouts?
+Yes. The tournament should have the option of charging an entry fee. Prizes should also be an option, where the tournament administrator chooses how much money to award a variable number of places. The total cash amount should not exceed the income from the tournament. A percentage-based system would also be nice to specify.
