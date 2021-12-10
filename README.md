@@ -74,3 +74,5 @@ No. They only method of varied access is if the competitors are not allowed into
 ## Should this system contact users about upcoming games?
 Yes, the system should email users that they are due to play in a round as well as who they are scheduled to play.
 
+## Is each player on their own or can teams use this tournament tracker?
+The tournament tracker should be able to handle the addition of other memebers. All members should be treated as equals in that they all get tournament emails. Teams should also be able to name their team.
