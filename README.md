@@ -35,11 +35,11 @@ My friends come to me and ask me to create a tournament tracker. They are always
 6. The last player standing is the winner.
 
 ## Questions
-### How many players will the tournament handle? Is it variable?
+### 1. How many players will the tournament handle? Is it variable?
 The application should be able to handle a variable number of players in a tournament.
-### If a tournament has less than the full complement of players, how do we handle it?
+### 2. If a tournament has less than the full complement of players, how do we handle it?
 A tournament with less than the perfect number (a multiple of 2, so 4, 8, 16, 32, etc.) should add in "byes". Basically, certain people selected at random get to skip the first round and act as if they won.
-### Should the ordering of who plays each other be random or ordered by input order?
+### 3. Should the ordering of who plays each other be random or ordered by input order?
 The ordering of the tournament should be random.
-### Should we schedule the Games or are they just played whenever?
+### 4. Should we schedule the Games or are they just played whenever?
 The games should be played in whatever order and whenever the players want to play them.
